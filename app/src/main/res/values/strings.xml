@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">PracticaTemario</string>
+    <string name="app_name">Sprint3</string>
+    <string name="home_title">La Velada 2027</string>
+    <string name="home_subtitle">Una noche de espectáculo y combates</string>
+    <string name="home_description">Descubre la información sobre el evento.</string>
+    <string name="home_button">Ver más información</string>
+    <string name="home_toast">Todavía no está implementado</string>
+    <string name="home_image_description">Imagen ilustrativa de La Velada 2027</string>
 </resources>

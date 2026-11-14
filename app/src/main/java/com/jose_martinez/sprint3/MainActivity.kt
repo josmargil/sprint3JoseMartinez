@@ -1,6 +1,7 @@
 package com.jose_martinez.sprint3
 
 import android.os.Bundle
+import androidx.activity.R
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
