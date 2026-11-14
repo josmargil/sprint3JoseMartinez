@@ -1,5 +1,6 @@
 package com.jose_martinez.sprint3
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -36,5 +37,13 @@ class HomeActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
+
+        val btnDetails = findViewById<Button>(R.id.btnDetails)
+
+        btnDetails.setOnClickListener {
+            val intent = Intent(this, DetailActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

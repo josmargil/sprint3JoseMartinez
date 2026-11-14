@@ -6,4 +6,8 @@
     <string name="home_button">Ver más información</string>
     <string name="home_toast">Todavía no está implementado</string>
     <string name="home_image_description">Imagen ilustrativa de La Velada 2027</string>
+    <string name="home_detail_button">Ver detalles del evento</string>
+    <string name="card_image_description">Imagen relacionada con %1$s</string>
+
+
 </resources>
