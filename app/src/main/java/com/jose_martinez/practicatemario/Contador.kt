@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import com.jose_martinez.practicatemario.databinding.ViewContadorBinding
+import com.jose_martinez.sprint3.databinding.ViewContadorBinding
 
 class Contador @JvmOverloads constructor(
     context: Context,

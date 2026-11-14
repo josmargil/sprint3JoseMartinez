@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import com.jose_martinez.practicatemario.databinding.ViewMyCardBinding
+import com.jose_martinez.sprint3.databinding.ViewMyCardBinding
 
 class MyCard @JvmOverloads constructor(
     context: Context,

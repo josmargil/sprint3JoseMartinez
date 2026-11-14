@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.jose_martinez.practicatemario"
+    namespace = "com.jose_martinez.sprint3"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.jose_martinez.practicatemario"
+        applicationId = "com.jose_martinez.sprint3"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

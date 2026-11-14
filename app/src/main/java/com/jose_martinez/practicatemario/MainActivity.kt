@@ -5,7 +5,7 @@ import android.view.View
 import android.widget.SeekBar
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
-import com.jose_martinez.practicatemario.databinding.ActivityMainBinding
+import com.jose_martinez.sprint3.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
