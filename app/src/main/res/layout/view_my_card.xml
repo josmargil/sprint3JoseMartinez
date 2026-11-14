@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -7,42 +8,121 @@
     android:orientation="vertical"
     android:background="@drawable/bg_event_card"
     android:clipToOutline="true"
-    android:padding="16dp">
+    android:padding="@dimen/card_padding">
 
+    <!-- Imagen -->
     <ImageView
         android:id="@+id/imgCard"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/card_image_height"
         android:scaleType="centerCrop"
         android:contentDescription="@string/home_image_description"
         tools:src="@drawable/velada_2027" />
 
+    <!-- Titulo -->
     <TextView
         android:id="@+id/txtCardTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/card_spacing_large"
         android:textColor="@color/text_primary"
-        android:textSize="24sp"
+        android:textSize="@dimen/card_title_size"
         android:textStyle="bold"
-        tools:text="La Velada 2027" />
+        tools:text="@string/home_title" />
 
+    <!-- Subtitulo -->
     <TextView
         android:id="@+id/txtCardSubtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/card_spacing_small"
         android:textColor="@color/text_secondary"
-        android:textSize="18sp"
-        tools:text="El evento del año" />
+        android:textSize="@dimen/card_subtitle_size"
+        tools:text="@string/home_subtitle" />
 
+    <!-- Descripcion -->
     <TextView
         android:id="@+id/txtCardDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/card_spacing_medium"
         android:textColor="@color/text_secondary"
-        android:textSize="16sp"
-        tools:text="Información sobre el evento." />
+        android:textSize="@dimen/card_description_size"
+        tools:text="@string/home_description" />
+
+    <!-- Informacion del evento -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/card_spacing_section"
+        android:text="@string/card_info_title"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/card_section_title_size"
+        android:textStyle="bold"
+        android:accessibilityHeading="true" />
+
+    <!-- Fila de informacion -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/card_spacing_medium"
+        android:orientation="horizontal">
+
+        <!-- Fecha -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_info_box"
+            android:orientation="vertical"
+            android:padding="@dimen/card_info_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_date_label"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/card_info_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_spacing_small"
+                android:text="@string/card_pending"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/card_info_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Lugar -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/card_spacing_medium"
+            android:layout_weight="1"
+            android:background="@drawable/bg_info_box"
+            android:orientation="vertical"
+            android:padding="@dimen/card_info_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_location_label"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/card_info_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_spacing_small"
+                android:text="@string/card_pending"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/card_info_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

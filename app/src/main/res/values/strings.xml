@@ -9,5 +9,12 @@
     <string name="home_detail_button">Ver detalles del evento</string>
     <string name="card_image_description">Imagen relacionada con %1$s</string>
 
+    <string name="card_info_title">Información del evento</string>
+    <string name="card_date_label">Fecha</string>
+    <string name="card_location_label">Lugar</string>
+    <string name="card_pending">Por confirmar</string>
+    <string name="card_categories_title">Categorías</string>
+    <string name="card_category_boxing">Boxeo</string>
+    <string name="card_category_entertainment">Entretenimiento</string>
 
 </resources>

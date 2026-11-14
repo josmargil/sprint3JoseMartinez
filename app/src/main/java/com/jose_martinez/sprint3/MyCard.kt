@@ -1,3 +1,4 @@
+
 package com.jose_martinez.sprint3
 
 import android.content.Context
@@ -21,16 +22,30 @@ class MyCard(
         title: String,
         subtitle: String,
         description: String,
-        image: Int
+        image: Int,
+        date: String,
+        location: String,
+        category1: String,
+        category2: String
     ) {
+
+        // Informacion principal
         binding.txtCardTitle.text = title
         binding.txtCardSubtitle.text = subtitle
         binding.txtCardDescription.text = description
 
-        // Añadimos la imagen desde Kotlin
+        // Imagen del evento
         binding.imgCard.setImageResource(image)
 
-        // Descripcion accesible de la imagen
+        // Informacion del evento
+        binding.txtCardDate.text = date
+        binding.txtCardLocation.text = location
+
+        // Categorias
+        binding.txtCategory1.text = category1
+        binding.txtCategory2.text = category2
+
+        // Accesibilidad de la imagen
         binding.imgCard.contentDescription = context.getString(
             R.string.card_image_description,
             title
