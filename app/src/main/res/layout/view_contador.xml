@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDisminuir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@null"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAumentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@null"/>
+
+
+</LinearLayout>

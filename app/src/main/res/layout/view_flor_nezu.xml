@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNezu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEZU"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnFlor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="🌸"
+        android:textSize="50sp"
+        android:background="@null"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginTop="20dp"
+        android:stateListAnimator="@null"
+        android:contentDescription="Mostrar NEZU" />
+
+
+</LinearLayout>
