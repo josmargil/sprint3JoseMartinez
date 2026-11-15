@@ -38,7 +38,7 @@ class HomeActivity : AppCompatActivity() {
         // He separado el diseño en XML y la lógica en Kotlin.
         // También he guardado los textos en strings.xml, los colores en colors.xml y las dimensiones en dimens.xml.
         // Así evito el hardcoding y puedo modificar los recursos sin tener que cambiar cada componente por separado.
-        
+
         val btnMoreInfo = findViewById<Button>(R.id.btnMoreInfo)
 
         btnMoreInfo.setOnClickListener {
