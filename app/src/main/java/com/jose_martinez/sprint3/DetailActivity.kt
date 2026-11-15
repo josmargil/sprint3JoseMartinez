@@ -20,8 +20,8 @@ class DetailActivity : AppCompatActivity() {
             subtitle = getString(R.string.home_subtitle),
             description = getString(R.string.home_description),
             image = R.drawable.velada_2027,
-            date = getString(R.string.card_pending),
-            location = getString(R.string.card_pending),
+            date = getString(R.string.card_date_text),
+            location = getString(R.string.card_location_text),
             category1 = getString(R.string.card_category_boxing),
             category2 = getString(R.string.card_category_entertainment)
         )

@@ -1,20 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sprint3</string>
+
+    <!-- Aplicacion -->
+    <string name="app_name">La Velada</string>
+
+    <!-- HomeActivity -->
     <string name="home_title">La Velada 2027</string>
     <string name="home_subtitle">Una noche de espectáculo y combates</string>
-    <string name="home_description">Descubre la información sobre el evento.</string>
+    <string name="home_description">Creadores de contenido boxeando en busca del cinturón de campeón.</string>
     <string name="home_button">Ver más información</string>
-    <string name="home_toast">Todavía no está implementado</string>
-    <string name="home_image_description">Imagen ilustrativa de La Velada 2027</string>
     <string name="home_detail_button">Ver detalles del evento</string>
+    <string name="home_toast">Todavía no está implementado</string>
+
+    <!-- Accesibilidad -->
+    <string name="home_image_description">Imagen ilustrativa de La Velada 2027</string>
     <string name="card_image_description">Imagen relacionada con %1$s</string>
 
+    <!-- MyCard -->
     <string name="card_info_title">Información del evento</string>
     <string name="card_date_label">Fecha</string>
+    <string name="card_date_text">17 / 11 / 2026</string>
     <string name="card_location_label">Lugar</string>
-    <string name="card_pending">Por confirmar</string>
+    <string name="card_location_text">Puzol, Valencia</string>
+
+    <!-- Categorias de MyCard -->
     <string name="card_categories_title">Categorías</string>
     <string name="card_category_boxing">Boxeo</string>
     <string name="card_category_entertainment">Entretenimiento</string>
 
 </resources>
+

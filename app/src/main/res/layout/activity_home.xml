@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/spacing_extra_large">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,10 +19,11 @@
             android:background="@drawable/bg_event_card"
             android:clipToOutline="true">
 
+            <!-- Imagen -->
             <ImageView
                 android:id="@+id/imgEvent"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="@dimen/home_image_height"
                 android:src="@drawable/velada_2027"
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/home_image_description" />
@@ -31,55 +32,59 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="@dimen/spacing_extra_large">
 
+                <!-- Titulo -->
                 <TextView
                     android:id="@+id/txtTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/home_title"
                     android:textColor="@color/text_primary"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/home_title_size"
                     android:textStyle="bold" />
 
+                <!-- Subtitulo -->
                 <TextView
                     android:id="@+id/txtSubtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
                     android:text="@string/home_subtitle"
                     android:textColor="@color/text_secondary"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/card_subtitle_size" />
 
+                <!-- Descripcion -->
                 <TextView
                     android:id="@+id/txtDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/spacing_large"
                     android:text="@string/home_description"
                     android:textColor="@color/text_secondary"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/card_description_size" />
 
+                <!-- Boton del Toast -->
                 <Button
                     android:id="@+id/btnMoreInfo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:minHeight="48dp"
+                    android:layout_marginTop="@dimen/spacing_section"
+                    android:minHeight="@dimen/button_min_height"
                     android:text="@string/home_button"
                     android:textAllCaps="false"
                     android:textColor="@color/background_main"
                     android:backgroundTint="@color/accent" />
 
+                <!-- Boton de detalles -->
                 <Button
                     android:id="@+id/btnDetails"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:minHeight="48dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:minHeight="@dimen/button_min_height"
                     android:text="@string/home_detail_button"
                     android:textAllCaps="false" />
-
 
             </LinearLayout>
 

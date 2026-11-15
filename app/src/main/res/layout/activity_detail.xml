@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/spacing_extra_large">
 
         <com.jose_martinez.sprint3.MyCard
             android:id="@+id/myCard"
@@ -20,5 +20,3 @@
     </LinearLayout>
 
 </ScrollView>
-
-
