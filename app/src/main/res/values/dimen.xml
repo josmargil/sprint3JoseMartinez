@@ -23,6 +23,6 @@
     <dimen name="card_corner_radius">16dp</dimen>
     <dimen name="info_corner_radius">12dp</dimen>
     <dimen name="info_border_width">1dp</dimen>
-    
+
 </resources>
 

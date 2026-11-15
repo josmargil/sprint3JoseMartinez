@@ -12,18 +12,33 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        // UI (Interfaz de usuario):
+        // He elegido un fondo oscuro con detalles morados y textos claros para diferenciar los elementos de la pantalla.
+        // También he personalizado la tarjeta utilizando un shape con esquinas redondeadas y diferentes tamaños de texto.
+
+        // Principios CRAP:
+        // Contraste: he destacado el título con un tamaño mayor y negrita para diferenciarlo del resto de información.
+        // Repetición: he mantenido los mismos colores y estilos para conseguir un diseño uniforme.
+        // Alineación: he utilizado LinearLayout para organizar los componentes verticalmente y mantener los márgenes.
+        // Proximidad: he agrupado la imagen, los textos y los botones dentro de una misma tarjeta.
+
+        // UX (Experiencia de usuario):
+        // He colocado primero la imagen y la información del evento y después los botones, para que el usuario siga un orden.
+        // El primer botón muestra un Toast indicando que todavía no está implementado y el segundo abre DetailActivity.
+
         // Accesibilidad:
-        // He utilizado textos de strings.xml, colores de colors.xml y dimensiones de dimen.xml y una descripcion para la imagen, facilitando su accesibilidad.
+        // He añadido un contentDescription a la imagen para que pueda ser identificada por lectores de pantalla.
+        // También he utilizado tamaños de texto en sp y botones con una altura mínima de 48dp para facilitar su uso.
 
-        // UI:
-        // He utilizado colores, tamaños de texto y un shape para crear una pantalla clara y atractiva.
+        // Adaptación a diferentes pantallas:
+        // He utilizado match_parent y wrap_content para adaptar los componentes al espacio disponible.
+        // También he añadido un ScrollView para que se pueda desplazar el contenido cuando no cabe en pantalla.
 
-        // UX:
-        // La informacion esta organizada y el boton es facil de identificar y utilizar.
-
-        // Buenas practicas:
-        // Separamos el diseño XML de la logica Kotlin y utilizamos recursos para textos y colores.
-
+        // Buenas prácticas:
+        // He separado el diseño en XML y la lógica en Kotlin.
+        // También he guardado los textos en strings.xml, los colores en colors.xml y las dimensiones en dimens.xml.
+        // Así evito el hardcoding y puedo modificar los recursos sin tener que cambiar cada componente por separado.
+        
         val btnMoreInfo = findViewById<Button>(R.id.btnMoreInfo)
 
         btnMoreInfo.setOnClickListener {
