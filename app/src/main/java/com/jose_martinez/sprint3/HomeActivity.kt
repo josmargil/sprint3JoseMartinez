@@ -13,20 +13,16 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         // Accesibilidad:
-        // Utilizamos textos de strings.xml y una descripcion
-        // para la imagen, facilitando su accesibilidad.
+        // He utilizado textos de strings.xml, colores de colors.xml y dimensiones de dimen.xml y una descripcion para la imagen, facilitando su accesibilidad.
 
         // UI:
-        // Hemos utilizado colores, tamaños de texto y un
-        // shape para crear una pantalla clara y atractiva.
+        // He utilizado colores, tamaños de texto y un shape para crear una pantalla clara y atractiva.
 
         // UX:
-        // La informacion esta organizada y el boton es
-        // facil de identificar y utilizar.
+        // La informacion esta organizada y el boton es facil de identificar y utilizar.
 
         // Buenas practicas:
-        // Separamos el diseño XML de la logica Kotlin
-        // y utilizamos recursos para textos y colores.
+        // Separamos el diseño XML de la logica Kotlin y utilizamos recursos para textos y colores.
 
         val btnMoreInfo = findViewById<Button>(R.id.btnMoreInfo)
 

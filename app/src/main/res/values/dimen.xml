@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Espaciados generales -->
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="spacing_medium">12dp</dimen>
     <dimen name="spacing_large">16dp</dimen>
     <dimen name="spacing_extra_large">20dp</dimen>
     <dimen name="spacing_section">24dp</dimen>
 
-    <!-- HomeActivity -->
     <dimen name="home_image_height">220dp</dimen>
     <dimen name="home_title_size">26sp</dimen>
     <dimen name="button_min_height">48dp</dimen>
 
-    <!-- MyCard -->
     <dimen name="card_image_height">200dp</dimen>
     <dimen name="card_title_size">24sp</dimen>
     <dimen name="card_subtitle_size">18sp</dimen>
@@ -23,11 +20,9 @@
     <dimen name="card_info_icon_size">20dp</dimen>
     <dimen name="card_icon_spacing">6dp</dimen>
 
-    <!-- Fondos y bordes -->
     <dimen name="card_corner_radius">16dp</dimen>
     <dimen name="info_corner_radius">12dp</dimen>
     <dimen name="info_border_width">1dp</dimen>
-
-
+    
 </resources>
 

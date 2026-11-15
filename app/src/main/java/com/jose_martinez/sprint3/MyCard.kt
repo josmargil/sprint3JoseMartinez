@@ -29,26 +29,25 @@ class MyCard(
         category2: String
     ) {
 
-        // Informacion principal
+        // Configuro aquí la Informacion principal
         binding.txtCardTitle.text = title
         binding.txtCardSubtitle.text = subtitle
         binding.txtCardDescription.text = description
 
-        // Imagen del evento
+        // Configuro aquí la Imagen del evento
         binding.imgCard.setImageResource(image)
-
-        // Informacion del evento
-        binding.txtCardDate.text = date
-        binding.txtCardLocation.text = location
-
-        // Categorias
-        binding.txtCategory1.text = category1
-        binding.txtCategory2.text = category2
-
-        // Accesibilidad de la imagen
         binding.imgCard.contentDescription = context.getString(
             R.string.card_image_description,
             title
         )
+
+        // Configuro aquí la Informacion del evento
+        binding.txtCardDate.text = date
+        binding.txtCardLocation.text = location
+
+        // Configura aquí las Categorias
+        binding.txtCategory1.text = category1
+        binding.txtCategory2.text = category2
+
     }
 }
