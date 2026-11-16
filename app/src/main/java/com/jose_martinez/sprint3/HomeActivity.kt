@@ -39,6 +39,11 @@ class HomeActivity : AppCompatActivity() {
         // También he guardado los textos en strings.xml, los colores en colors.xml y las dimensiones en dimens.xml.
         // Así evito el hardcoding y puedo modificar los recursos sin tener que cambiar cada componente por separado.
 
+        // Futura versión:
+        // Al haber estado investigando, aprendiendo y ampliando un poco el proyecto, valoro la idea de que existen
+        // varios LinearLayout anidados, por lo que podría ser necesario el cambio a ConstraintLayout si tengo la
+        // idea de seguir ampliando y detallando aún más MyCard
+
         val btnMoreInfo = findViewById<Button>(R.id.btnMoreInfo)
 
         btnMoreInfo.setOnClickListener {
